@@ -1,0 +1,88 @@
+.get {
+  display: flex;
+  justify-content: center;
+}
+.get .get__container {
+  max-width: 1400px;
+  width: 100%;
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  gap: 50px;
+}
+.get .get__container .get__text {
+  margin-top: 50px;
+}
+.get .get__container .get__text .subtitle {
+  font-size: 18px;
+  margin-top: 50px;
+}
+.get .get__container .get__text .button {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 50px;
+}
+.get .get__container .get__text .apple {
+  display: flex;
+  width: 180px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: rgb(255, 85, 62);
+  color: #fff;
+  padding-left: 20px;
+  padding-top: 10px;
+  transition: 0.3s;
+}
+.get .get__container .get__text .apple .text p {
+  font-size: 14px;
+}
+.get .get__container .get__text .apple .text h2 {
+  font-size: 24px;
+}
+.get .get__container .get__text .apple .img {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.get .get__container .get__text .apple .img img {
+  width: 30px;
+  height: 30px;
+}
+.get .get__container .get__text .apple:hover {
+  opacity: 0.6;
+}
+.get .get__container .get__text .play {
+  display: flex;
+  width: 180px;
+  height: 60px;
+  border-radius: 30px;
+  border: 1px solid rgb(255, 85, 62);
+  color: rgb(255, 85, 62);
+  padding-left: 20px;
+  padding-top: 10px;
+  transition: 0.3s;
+}
+.get .get__container .get__text .play .text p {
+  font-size: 14px;
+}
+.get .get__container .get__text .play .text h2 {
+  font-size: 20px;
+}
+.get .get__container .get__text .play .img {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.get .get__container .get__text .play .img img {
+  width: 30px;
+  height: 30px;
+}
+.get .get__container .get__text .play:hover {
+  background-color: rgba(255, 84, 62, 0.438);
+}
+.get .get__container .get__img img {
+  max-width: 380px;
+  width: 90%;
+  max-height: 800px;
+}/*# sourceMappingURL=Get.css.map */

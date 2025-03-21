@@ -1,0 +1,92 @@
+.tracker {
+  display: grid;
+  place-items: center;
+}
+.tracker .tracker__container {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 50px;
+  max-width: 1700px;
+  width: 100%;
+}
+.tracker .tracker__container .tracker__block-1 {
+  max-width: 690px;
+  width: 99%;
+  padding-left: 10px;
+}
+.tracker .tracker__container .tracker__block-1 .title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.tracker .tracker__container .tracker__block-1 .subtitle {
+  text-align: center;
+  font-size: 18px;
+  color: rgb(64, 64, 64);
+  line-height: 1.5;
+}
+.tracker .tracker__container .tracker__block-1 .cards .card {
+  display: flex;
+  margin-top: 60px;
+}
+.tracker .tracker__container .tracker__block-1 .cards .card .text {
+  margin-left: 20px;
+  color: rgb(64, 64, 64);
+}
+.tracker .tracker__container .tracker__block-1 .cards .card .text h2 {
+  font-size: 22px;
+}
+.tracker .tracker__container .tracker__block-1 .cards .card .text p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.tracker .tracker__container .tracker__block-1 .cards .img {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 15px;
+}
+.tracker .tracker__container .tracker__block-1 .cards .img img {
+  width: 60px;
+  height: 60px;
+}
+.tracker .tracker__container .tracker__block-1 .cards .card-1 .img {
+  background-color: rgb(91, 193, 127);
+}
+.tracker .tracker__container .tracker__block-1 .cards .card-2 {
+  margin-left: 130px;
+}
+.tracker .tracker__container .tracker__block-1 .cards .card-2 .img {
+  background-color: rgb(254, 98, 146);
+}
+.tracker .tracker__container .tracker__block-1 .cards .card-3 .img {
+  background-color: rgb(107, 114, 255);
+}
+.tracker .tracker__container .tracker__block-2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tracker .tracker__container .tracker__block-2 .block-img-1 {
+  display: grid;
+}
+.tracker .tracker__container .tracker__block-2 .block-img-1 img {
+  width: 260px;
+}
+.tracker .tracker__container .tracker__block-2 .block-img-2 img {
+  width: 388px;
+  height: 430px;
+}
+
+@media (max-width: 500px) {
+  .tracker__block-1 .card-2 {
+    margin-left: 0 !important;
+  }
+  .kit-2 {
+    display: none;
+  }
+  .tracker {
+    display: block;
+  }
+}/*# sourceMappingURL=Tracker.css.map */

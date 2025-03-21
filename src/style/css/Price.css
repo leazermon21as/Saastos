@@ -1,0 +1,96 @@
+.prices {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+.prices .prices__container {
+  max-width: 1200px;
+  width: 100%;
+}
+.prices .prices__container .title {
+  text-align: center;
+}
+.prices .prices__container .subtitle {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+}
+.prices .prices__container .choises {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  color: rgb(64, 64, 64);
+  gap: 10px;
+  margin-top: 40px;
+}
+.prices .prices__container .choises .choise {
+  width: 80px;
+  height: 40px;
+  background-color: rgba(216, 212, 211, 0.2);
+  border-radius: 30px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.prices .prices__container .choises .choise .choise__dot {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: rgb(255, 85, 62);
+  margin-top: 5px;
+  margin-left: 3px;
+  transition: 0.3s;
+}
+.prices .prices__container .price__blocks {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.prices .prices__container .price__blocks .pb {
+  margin-top: 40px;
+  max-width: 370px;
+  width: 99%;
+  height: 500px;
+  border: 1px solid rgb(255, 85, 62);
+  text-align: center;
+  border-radius: 40px;
+  padding-top: 40px;
+  line-height: 2.5;
+}
+.prices .prices__container .price__blocks .pb p {
+  color: rgb(255, 85, 62);
+  font-size: 20px;
+}
+.prices .prices__container .price__blocks .pb .cash {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.prices .prices__container .price__blocks .pb .cash h1 {
+  font-size: 60px;
+  margin-top: -60px;
+}
+.prices .prices__container .price__blocks .pb button {
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+.prices .prices__container .price__blocks .pb button:hover {
+  opacity: 0.6;
+}
+.prices .prices__container .price__blocks .free button {
+  background-color: rgb(255, 85, 62);
+  color: #fff;
+}
+.prices .prices__container .price__blocks .premium {
+  background-color: rgb(255, 85, 62);
+  color: #fff;
+}
+.prices .prices__container .price__blocks .premium p {
+  color: #fff;
+}/*# sourceMappingURL=Price.css.map */

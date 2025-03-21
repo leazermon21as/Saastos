@@ -1,0 +1,65 @@
+.some {
+  display: grid;
+  place-items: center;
+}
+.some .some__container {
+  margin-top: 150px;
+  max-width: 1300px;
+  width: 100%;
+}
+.some .some__container .some__title {
+  text-align: center;
+}
+.some .some__container .some__subtitle {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 30px;
+  line-height: 1.5;
+}
+.some .some__container .some__cards {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.some .some__container .some__cards .card {
+  padding-left: 30px;
+  color: #fff;
+  max-width: 370px;
+  width: 99%;
+  height: 260px;
+  border-radius: 30px;
+}
+.some .some__container .some__cards .card .card__img {
+  margin-top: 20px;
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #fff;
+  text-align: center;
+  padding-top: 10px;
+}
+.some .some__container .some__cards .card .card__img img {
+  width: 50px;
+  height: 50px;
+}
+.some .some__container .some__cards .card h2 {
+  font-size: 25px;
+  margin-top: 30px;
+}
+.some .some__container .some__cards .card p {
+  font-size: 18px;
+  width: 270px;
+  margin-top: 30px;
+}
+.some .some__container .some__cards .card-1 {
+  background-color: rgb(112, 208, 220);
+}
+.some .some__container .some__cards .card-2 {
+  background-color: rgb(117, 98, 224);
+}
+.some .some__container .some__cards .card-3 {
+  background-color: rgb(250, 134, 95);
+}/*# sourceMappingURL=Some.css.map */

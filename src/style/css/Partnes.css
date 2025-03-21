@@ -1,0 +1,79 @@
+.partnes {
+  display: flex;
+  justify-content: center;
+}
+.partnes .partnes__container {
+  padding-left: 20px;
+  max-width: 1300px;
+  width: 100%;
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.partnes .partnes__container .partnes__block-1 {
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+.partnes .partnes__container .partnes__block-1 .partnes__img {
+  border-radius: 30px;
+  display: grid;
+  place-items: center;
+}
+.partnes .partnes__container .partnes__block-1 .partnes__img-1 {
+  background-color: rgba(255, 186, 0, 0.1);
+  width: 240px;
+  height: 150px;
+}
+.partnes .partnes__container .partnes__block-1 .partnes__img-2 {
+  background-color: rgba(28, 96, 191, 0.1);
+  width: 300px;
+  height: 204px;
+}
+.partnes .partnes__container .partnes__block-1 .partnes__img-3 {
+  background-color: rgba(255, 186, 0, 0.1);
+  width: 350px;
+  height: 234px;
+}
+.partnes .partnes__container .partnes__block-1 .partnes__img-4 {
+  background-color: rgba(28, 96, 191, 0.1);
+  width: 380px;
+  height: 244px;
+  margin-top: 100px;
+}
+.partnes .partnes__container .partnes__block-1 .partnes__img-5 {
+  background-color: rgba(28, 96, 191, 0.1);
+  width: 240px;
+  height: 154px;
+}
+.partnes .partnes__container .partnes__block-2 {
+  margin-top: 50px;
+}
+.partnes .partnes__container .partnes__block-2 p {
+  max-width: 470px;
+  width: 98%;
+  margin: 50px 0;
+  font-size: 18px;
+}
+.partnes .partnes__container .partnes__block-2 button {
+  width: 180px;
+  height: 60px;
+  border-radius: 30px;
+  color: rgb(255, 85, 62);
+  border: 1px solid rgb(255, 85, 62);
+  font-size: 18px;
+  background-color: #fff;
+  transition: 0.3s;
+}
+.partnes .partnes__container .partnes__block-2 button:hover {
+  background-color: rgba(255, 84, 62, 0.473);
+}
+
+@media (max-width: 900px) {
+  .partnes__img {
+    width: 120px !important;
+    height: 120px !important;
+  }
+}/*# sourceMappingURL=Partnes.css.map */

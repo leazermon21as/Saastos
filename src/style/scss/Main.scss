@@ -1,0 +1,60 @@
+.main {
+
+
+    .main__block-1 {
+        display: flex;
+        justify-content: space-between;
+
+        .main__phone-1 {}
+
+        .main__text {
+            align-items: center;
+            text-align: center;
+            margin-top: 100px;
+
+            h1 {
+                margin-bottom: 50px;
+            }
+
+            p {
+                font-size: 20px;
+                line-height: 1.5;
+                margin-bottom: 50px;
+            }
+
+            button {
+                width: 200px;
+                height: 60px;
+                background-color: rgba(255, 85, 62, 1);
+                color: #fff;
+                border-radius: 30px;
+                font-size: 20px;
+                transition: 0.3s;
+
+                &:hover {
+                    opacity: 0.6;
+                }
+            }
+        }
+
+
+
+        .main__phone-2 {}
+
+    }
+
+}
+
+
+@media (max-width:950px) {
+    .main__block-1 {
+        justify-content: center !important;
+    }
+
+    .main__phone-1,
+    .main__phone-2 {
+        display: none;
+    }
+
+
+}
